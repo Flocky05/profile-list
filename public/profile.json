@@ -76,5 +76,47 @@
       "name": "Selina",
       "img": "https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=996&t=st=1695531277~exp=1695531877~hmac=21d64225af560932c68503151f285ee1800c87c0024786c76eccd20a9644d1c7",
       "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dicta pariatur ratione assumenda, eveniet commodi labore illo veritatis? Nostrum numquam beatae minima voluptas totam facere?"
+    },
+    {
+      "id": "6383312564f5a4e7c9d1ed7d",
+      "name": "Selina",
+      "img": "https://images.unsplash.com/photo-1508341591423-4347099e1f19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+      "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dicta pariatur ratione assumenda, eveniet commodi labore illo veritatis? Nostrum numquam beatae minima voluptas totam facere?"
+    },
+    {
+      "id": "6383312564f5a4e7c9d1ed6d",
+      "name": "Selina",
+      "img": "https://images.unsplash.com/photo-1592827095305-68f21edefb82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dicta pariatur ratione assumenda, eveniet commodi labore illo veritatis? Nostrum numquam beatae minima voluptas totam facere?"
+    },
+    {
+      "id": "6383312564f5a4e7c9d1ed5d",
+      "name": "Selina",
+      "img": "https://images.unsplash.com/photo-1483134529005-4c93495107d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dicta pariatur ratione assumenda, eveniet commodi labore illo veritatis? Nostrum numquam beatae minima voluptas totam facere?"
+    },
+    {
+      "id": "6383312564f5a4e7c9d1ed4d",
+      "name": "Selina",
+      "img": "https://images.unsplash.com/photo-1536588086516-cf8b058a7aa0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+      "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dicta pariatur ratione assumenda, eveniet commodi labore illo veritatis? Nostrum numquam beatae minima voluptas totam facere?"
+    },
+    {
+      "id": "6383312564f5a4e7c9d1ed3d",
+      "name": "Selina",
+      "img": "https://images.unsplash.com/photo-1460904577954-8fadb262612c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1990&q=80",
+      "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dicta pariatur ratione assumenda, eveniet commodi labore illo veritatis? Nostrum numquam beatae minima voluptas totam facere?"
+    },
+    {
+      "id": "6383312564f5a4e7c9d1ed2d",
+      "name": "Selina",
+      "img": "https://images.unsplash.com/photo-1532170579297-281918c8ae72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1784&q=80",
+      "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dicta pariatur ratione assumenda, eveniet commodi labore illo veritatis? Nostrum numquam beatae minima voluptas totam facere?"
+    },
+    {
+      "id": "6383312564f5a4e7c9d1ed1d",
+      "name": "Selina",
+      "img": "https://images.unsplash.com/photo-1558487661-9d4f01e2ad64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+      "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum dicta pariatur ratione assumenda, eveniet commodi labore illo veritatis? Nostrum numquam beatae minima voluptas totam facere?"
     }
   ]

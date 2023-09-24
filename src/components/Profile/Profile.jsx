@@ -19,6 +19,7 @@ const Profile = () => {
                 profile={profile}
                 ></ProfileDetails>)
             }
+            
         </div>
     );
 };
