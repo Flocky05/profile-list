@@ -1,5 +1,5 @@
 
-import img from "../../assets/images/hero/hero.avif"
+import img from "../../assets/images/New folder/hero.avif"
 import Profile from "../Profile/Profile";
 const Hero = () => {
     return (

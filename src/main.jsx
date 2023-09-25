@@ -9,6 +9,7 @@ import {
 import Main from './components/Main/Main';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
+import Blog from './components/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,11 @@ const router = createBrowserRouter([
       {
         path:"/about",
         element:<About></About>
-      }
+      },
+      {
+        path:"/blog",
+        element:<Blog></Blog>
+      },
     ]
   },
 ]);

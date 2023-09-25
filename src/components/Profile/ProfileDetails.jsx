@@ -13,7 +13,7 @@ const ProfileDetails = (props) => {
             </div>
             <div className="p-4">
                 <p>{bio}</p>
-                <a className="px-4 py-1 rounded-lg bg-pink-500 text-white mt-3" href="/">learn More</a>
+                <a className="px-4 py-1 rounded-lg bg-pink-500 text-white mt-10 inline-block" href="/">learn More</a>
             </div>
         </div>
         </div>
