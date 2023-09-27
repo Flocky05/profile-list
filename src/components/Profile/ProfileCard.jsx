@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import { Context } from "../../context/ProfileContext";
 
 
@@ -18,6 +19,7 @@ const ProfileCard = () => {
                 <p>Blod : <span className="text-md font-semibold"> {profiles.blod}</span> </p>
                 <p>Department : <span className="text-md font-semibold"> {profiles.Department}</span> </p>
                 <p>{profiles.bio}</p>
+                <Link to="/" className="bg-blue-500 px-6 py-1 rounded-lg text-white mt-3 inline-block" >Back</Link>
             </div>
         </div>
     );

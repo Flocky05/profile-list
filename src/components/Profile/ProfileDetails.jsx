@@ -7,7 +7,7 @@ const ProfileDetails = ({profile,handleViewDetails}) => {
         <div>
              <div className="flex flex-col items-center">
             
-            <div className="bg-blue-100 w-2/4 m-10 rounded-lg">
+            <div className="bg-gray-300 w-2/4 m-5 lg:m-10 rounded-lg">
             <div className="flex justify-between p-4 items-center">
                 <h3>Name: <span className="text-xl font-bold">{name}</span> </h3>
                 <img className="w-16 h-16 rounded-full border-2 border-red-500" src={img} alt="" />
