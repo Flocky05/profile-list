@@ -14,6 +14,7 @@ import ProfileDetails from './components/Profile/ProfileDetails';
 import ProfileCard from './components/Profile/ProfileCard';
 import ProfileContext from "./context/ProfileContext"
 import Login from './components/Login/Login';
+import Register from './components/Login/Register/Register';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path:"/login",
         element:<Login></Login>
+      },
+      {
+        path:"/register",
+        element:<Register></Register>
       },
     ]
   },

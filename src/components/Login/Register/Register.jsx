@@ -1,13 +1,18 @@
 import { Link } from "react-router-dom";
-import img from "../../assets/images/login/login.avif"
 
-const Login = () => {
+
+const Register = () => {
     return (
         <div>
-            <h2 className="text-4xl font-bold text-center pt-20">Please <span className="text-fuchsia-600">Login</span> </h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
-                <div>
-                    <form className="m-12" action="">
+          <form className="ml-96 my-20 " action="">
+                        <div>
+                            <p>Frist Name:</p>
+                            <input className="w-3/5 h-7 rounded-md p-2 bg-gray-100 mb-3" type="email" placeholder="Enter your frist Name" />
+                        </div>
+                        <div>
+                            <p>Last Name:</p>
+                            <input className="w-3/5 h-7 rounded-md p-2 bg-gray-100 mb-3" type="email" placeholder="Enter your Last Name" />
+                        </div>
                         <div>
                             <p>Email:</p>
                             <input className="w-3/5 h-7 rounded-md p-2 bg-gray-100" type="email" placeholder="Enter your mail" />
@@ -18,14 +23,10 @@ const Login = () => {
                        </div>
                        <button className="bg-fuchsia-600 px-7 py-1 rounded-lg text-white mt-3 inline-box" ><Link to="/" >Submit</Link></button>
                        
-                       <p className="mt-2">Dont have account, <Link className="text-fuchsia-600" to="/register">register now</Link> </p>
-                    </form>
-                    
-                </div>
-                <img className="p-10" src={img} alt="" />
-            </div>
+                       <p className="mt-2">Already have account, <Link className="text-fuchsia-600" to="/login">Login now</Link> </p>
+                    </form>  
         </div>
     );
 };
 
-export default Login;
+export default Register;
