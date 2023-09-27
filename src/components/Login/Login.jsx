@@ -4,8 +4,8 @@ import img from "../../assets/images/login/login.avif"
 const Login = () => {
     return (
         <div>
-            <h2 className="text-2xl font-bold text-center p-20">Please Login</h2>
-            <div className="grid grid-cols-2 items-center">
+            <h2 className="text-4xl font-bold text-center pt-20">Please <span className="text-fuchsia-600">Login</span> </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
                 <div>
                     <form className="m-12" action="">
                         <div>
