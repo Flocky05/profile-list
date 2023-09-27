@@ -13,6 +13,7 @@ import Blog from './components/Blog/Blog';
 import ProfileDetails from './components/Profile/ProfileDetails';
 import ProfileCard from './components/Profile/ProfileCard';
 import ProfileContext from "./context/ProfileContext"
+import Login from './components/Login/Login';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path:"/profileCard",
         element:<ProfileCard></ProfileCard>
+      },
+      {
+        path:"/login",
+        element:<Login></Login>
       },
     ]
   },
