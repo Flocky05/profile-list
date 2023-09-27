@@ -6,9 +6,9 @@ const ProfileCard = () => {
     const {profiles}=useContext(Context);
     console.log(profiles);
     return (
-        <div className="bg-gray-400 p-20 m-20 rounded-lg flex">
-            <img className="w-2/4 rounded-lg" src={profiles.img} alt="" />
-            <div className="p-16">
+        <div className="bg-gray-400 p-10 lg:p-20 m-10 lg:m-20 rounded-lg lg:flex">
+            <img className="lg:w-2/4 rounded-lg" src={profiles.img} alt="" />
+            <div className="p-8 lg:p-16">
                 <h3>Name:<span className="text-lg font-semibold">{profiles.name}</span> </h3>
                 <h3>Home-Town: <span className="text-lg font-semibold">{profiles.home}</span> </h3>
                 <p>Gender: {profiles.gendar} </p>
