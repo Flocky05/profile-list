@@ -10,6 +10,8 @@ import Main from './components/Main/Main';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
+import ProfileDetails from './components/Profile/ProfileDetails';
+import ProfileCard from './components/Profile/ProfileCard';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +20,8 @@ const router = createBrowserRouter([
     children:[
       {
         path:"/",
-        element: <Hero></Hero>
+        element: <Hero></Hero>,
+        loader:()=>fetch('profile.json')
       },
       {
         path:"/about",
@@ -27,6 +30,14 @@ const router = createBrowserRouter([
       {
         path:"/blog",
         element:<Blog></Blog>
+      },
+      {
+        path:"/profileDetails",
+        element:<ProfileDetails></ProfileDetails>
+      },
+      {
+        path:"/profileCard",
+        element:<ProfileCard></ProfileCard>
       },
     ]
   },

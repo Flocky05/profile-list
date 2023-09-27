@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 
 
-const ProfileDetails = (props) => {
-    const {name,img,bio}=props.profile;
+const ProfileDetails = ({profile,handleViewDetails}) => {
+    const {name,img,bio}=profile;
     return (
         <div>
              <div className="flex flex-col items-center">
@@ -13,7 +14,7 @@ const ProfileDetails = (props) => {
             </div>
             <div className="p-4">
                 <p>{bio}</p>
-                <a className="px-4 py-1 rounded-lg bg-pink-500 text-white mt-10 inline-block" href="/">learn More</a>
+                <Link className="px-4 py-1 rounded-lg bg-pink-500 text-white mt-10 inline-block"onClick={()=> handleViewDetails(profile)}  to="/ProfileCard">learn More</Link>
             </div>
         </div>
         </div>

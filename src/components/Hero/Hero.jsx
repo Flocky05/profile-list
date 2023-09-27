@@ -1,7 +1,9 @@
 
+import { useLoaderData } from "react-router-dom";
 import img from "../../assets/images/New folder/hero.avif"
 import Profile from "../Profile/Profile";
 const Hero = () => {
+    const Profiles=useLoaderData();
     return (
         <div>
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
@@ -12,7 +14,9 @@ const Hero = () => {
                 </div>
                 <img className="p-10 lg:p-20" src={img} alt="" />
             </div>
-            <Profile></Profile>
+            <Profile
+            profiles={Profiles}
+            ></Profile>
         </div>
     );
 };
