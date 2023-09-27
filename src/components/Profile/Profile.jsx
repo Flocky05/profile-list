@@ -1,13 +1,14 @@
 
-import { useState } from "react";
+import { useContext } from "react";
+import { Context } from "../../context/ProfileContext";
 import ProfileDetails from "./ProfileDetails";
 
 
 const Profile = ({profiles}) => {
-
-    const [cart,setCart]=useState([]);
+    const {setProfile}=useContext(Context)
     const handleViewDetails=profile=>{
         console.log(profile);
+        setProfile(profile)
     }
     return (
         <div>
