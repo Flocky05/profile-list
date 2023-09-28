@@ -21,6 +21,10 @@ const Register = () => {
                             <p>Password:</p>
                             <input className="w-3/5 h-7 rounded-md p-2 bg-gray-100" type="password" placeholder="Enter your Password" />
                        </div>
+                       <div className="  mt-5 inline-box">
+                            <p>Repassword:</p>
+                            <input className="w-3/5 h-7 rounded-md p-2 bg-gray-100" type="password" placeholder="Again Enter your Password" />
+                       </div>
                        <button className="bg-fuchsia-600 px-7 py-1 rounded-lg text-white mt-3 inline-box" ><Link to="/" >Submit</Link></button>
                        
                        <p className="mt-2">Already have account, <Link className="text-fuchsia-600" to="/login">Login now</Link> </p>
